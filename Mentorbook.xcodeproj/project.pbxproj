@@ -15,6 +15,10 @@
 		EF8A6C1B246B93DE00039DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A6C19246B93DE00039DE6 /* LaunchScreen.storyboard */; };
 		EF8A6C26246B93DE00039DE6 /* MentorbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A6C25246B93DE00039DE6 /* MentorbookTests.swift */; };
 		EF8A6C31246B93DF00039DE6 /* MentorbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A6C30246B93DF00039DE6 /* MentorbookUITests.swift */; };
+		EF8A6C42246B94B000039DE6 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8A6C3F246B94B000039DE6 /* ryo.jpg */; };
+		EF8A6C43246B94B000039DE6 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8A6C40246B94B000039DE6 /* nagata.jpg */; };
+		EF8A6C44246B94B000039DE6 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EF8A6C41246B94B000039DE6 /* taithi.JPG */; };
+		EF8A6C46246B983000039DE6 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A6C45246B983000039DE6 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		EF8A6C2C246B93DF00039DE6 /* MentorbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A6C30246B93DF00039DE6 /* MentorbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorbookUITests.swift; sourceTree = "<group>"; };
 		EF8A6C32246B93DF00039DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8A6C3F246B94B000039DE6 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		EF8A6C40246B94B000039DE6 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		EF8A6C41246B94B000039DE6 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		EF8A6C45246B983000039DE6 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,11 @@
 				EF8A6C10246B93D900039DE6 /* SceneDelegate.swift */,
 				EF8A6C12246B93D900039DE6 /* ViewController.swift */,
 				EF8A6C14246B93D900039DE6 /* Main.storyboard */,
+				EF8A6C3E246B94B000039DE6 /* images */,
 				EF8A6C17246B93DE00039DE6 /* Assets.xcassets */,
 				EF8A6C19246B93DE00039DE6 /* LaunchScreen.storyboard */,
 				EF8A6C1C246B93DE00039DE6 /* Info.plist */,
+				EF8A6C45246B983000039DE6 /* Mentor.swift */,
 			);
 			path = Mentorbook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				EF8A6C32246B93DF00039DE6 /* Info.plist */,
 			);
 			path = MentorbookUITests;
+			sourceTree = "<group>";
+		};
+		EF8A6C3E246B94B000039DE6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A6C3F246B94B000039DE6 /* ryo.jpg */,
+				EF8A6C40246B94B000039DE6 /* nagata.jpg */,
+				EF8A6C41246B94B000039DE6 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8A6C42246B94B000039DE6 /* ryo.jpg in Resources */,
+				EF8A6C43246B94B000039DE6 /* nagata.jpg in Resources */,
+				EF8A6C44246B94B000039DE6 /* taithi.JPG in Resources */,
 				EF8A6C1B246B93DE00039DE6 /* LaunchScreen.storyboard in Resources */,
 				EF8A6C18246B93DE00039DE6 /* Assets.xcassets in Resources */,
 				EF8A6C16246B93D900039DE6 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8A6C46246B983000039DE6 /* Mentor.swift in Sources */,
 				EF8A6C13246B93D900039DE6 /* ViewController.swift in Sources */,
 				EF8A6C0F246B93D900039DE6 /* AppDelegate.swift in Sources */,
 				EF8A6C11246B93D900039DE6 /* SceneDelegate.swift in Sources */,
@@ -437,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = Mentorbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = Mentorbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
